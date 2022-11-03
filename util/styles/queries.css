@@ -1,0 +1,23 @@
+/* ----- Bellow 1194px ----- */
+
+@media (max-width: 1194px) {
+    html {
+        font-size: 52%;
+    }
+
+    .hero {
+        gap: 3.2rem;
+    }
+
+    .logos img {
+        height: 3rem;
+    }
+}
+
+/* ----- Bellow 982px ----- */
+
+@media (max-width: 982px) {
+    .hero-title {
+        font-size: 3.8rem;
+    }
+}
