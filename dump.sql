@@ -18,9 +18,9 @@ CREATE TABLE products (
 
 CREATE TABLE shopping_cart (
     id INT auto_increment PRIMARY KEY,
-    quantity INT,
     product_id INT,
-    client_id INT
+    client_id INT,
+    quantity INT
 );
 
 ALTER TABLE `shopping_cart` ADD CONSTRAINT `fk_product_id` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`);
