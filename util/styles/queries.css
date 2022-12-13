@@ -1,23 +1,74 @@
 /* ----- Bellow 1194px ----- */
 
 @media (max-width: 1194px) {
-    html {
-        font-size: 52%;
-    }
+	html {
+		font-size: 52%;
+	}
 
-    .hero {
-        gap: 3.2rem;
-    }
+	.hero {
+		gap: 3.2rem;
+	}
 
-    .logos img {
-        height: 3rem;
-    }
+	.logos img {
+		height: 3rem;
+	}
 }
 
 /* ----- Bellow 982px ----- */
 
 @media (max-width: 982px) {
-    .hero-title {
-        font-size: 3.8rem;
-    }
+	.hero-title {
+		font-size: 3.8rem;
+	}
+
+	.grid--3-cols {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Below 940 (Tablets) */
+
+@media (max-width: 940px) {
+	html {
+		font-size: 50%;
+	}
+
+	.cta {
+		grid-template-columns: 3fr 2fr;
+	}
+
+	.cta-form {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* ----- Bellow 722px ----- */
+
+@media (max-width: 722px) {
+	.grid--3-cols {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+/* Below 544 (Phones) */
+
+@media (max-width: 544px) {
+	.button,
+	.button:link,
+	.button:visited {
+		padding: 2.4rem 1.6rem;
+	}
+
+	.cta {
+		grid-template-columns: 1fr;
+	}
+
+	.cta-image-box {
+		grid-row: 1;
+		height: 32rem;
+	}
+
+	.cta-text-box {
+		padding: 3.2rem;
+	}
 }
