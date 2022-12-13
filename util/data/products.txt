@@ -1,0 +1,21 @@
+product_image: 
+https://img.delicious.com.au/iJhIRNQj/del/2016/05/the-big-mac-30773-1.jpg
+
+product_name: Big Mac
+price: 2
+
+---------------------------------------------------------------------------------------------------
+
+product_image: 
+https://img.taste.com.au/ol2Jq8ZQ/taste/2016/11/rachel-87711-2.jpeg
+
+product_name: French fries
+price: 5
+
+---------------------------------------------------------------------------------------------------
+
+product_image: 
+https://insanelygoodrecipes.com/wp-content/uploads/2020/09/Croissant-Fillings-1.jpg
+
+product_name: Croissant
+price: 1.5
